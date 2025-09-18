@@ -10,7 +10,7 @@ function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2">
         <img src={logo} alt="Swastixa Logo" className="w-16 h-16" />
-          <span className="font-bold text-[#23313b] text-3xl">Quarter</span>
+          <span className="font-bold text-[#23313b] text-3xl">Swastixa</span>
         </div>
 
         {/* Desktop Navigation */}
