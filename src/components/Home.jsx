@@ -20,16 +20,18 @@ function Home() {
       <section className="relative w-full min-h-[600px] flex flex-col md:flex-row bg-[#f5fafa] z-0">
         {/* Left Section */}
         <div className="md:w-1/2 flex flex-col justify-center py-10 px-6 md:px-20">
-          <div className="flex items-center mb-8">
+          {/* <div className="flex items-center mb-8">
             <span className="text-2xl text-[#ff6240] mr-2">🏠</span>
             <span className="text-base font-semibold text-gray-700">Real Estate Agency</span>
-          </div>
+          </div> */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#23313b] mb-6 leading-tight sm:leading-snug">
-            Find Your Dream <br /> House By Us
+            Luxury Homes, <br /> Crafted for You
+            {/* Find Your Dream <br /> House By Us */}
           </h1>
           <p className="border-l-2 border-gray-200 pl-4 text-gray-500 text-base sm:text-lg mb-10 max-w-md">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br />
-            sed do eiusmod tempor incididunt ut labore.
+            {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br />
+            sed do eiusmod tempor incididunt ut labore. */}
+            Experience top-quality design and construction with unmatched attention to detail.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 max-w-md">
             <button className="bg-[#ff6240] hover:bg-[#e55a2b] text-white font-semibold py-4 px-10 rounded-md shadow-md transition w-full sm:w-auto">
@@ -54,7 +56,7 @@ function Home() {
         <form
           className="
             absolute bottom-0 left-0 right-0
-            md:left-20 md:right-auto
+            md:left-[182px] md:right-auto
             transform translate-y-1/2
             w-[90%] md:w-[70%]
             mx-auto md:mx-0
