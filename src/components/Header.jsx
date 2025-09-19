@@ -132,7 +132,7 @@ function Header() {
         {/* Add Listing Button (hidden on small) */}
         <div className="hidden md:block">
           <button
-            className="bg-[#284181] text-white py-3 px-8 rounded shadow-md font-semibold hover:bg-[#e55a2b] transition"
+            className="bg-[#284181] text-white py-3 px-8 rounded shadow-md font-semibold hover:bg-[#284181] transition"
             type="button"
           >
             Contact Us
