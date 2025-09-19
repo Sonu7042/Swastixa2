@@ -19,7 +19,7 @@ const features = [
 const Neighbourhood = () => (
   <section className="py-5 bg-[#f6fbfc]">
     <div className="max-w-7xl mx-auto px-4">
-      <span className="text-[#ff5a3c] text-sm block mb-1 font-medium">Explore Neighbour</span>
+      <span className="text-[#284181] text-sm block mb-1 font-medium">Explore Neighbour</span>
       <h2 className="text-3xl sm:text-4xl font-bold leading-[1.1] mb-8 text-[#212121]">
         What’s In Neighbour <br className="hidden sm:block" />
         Explore Below
@@ -45,11 +45,11 @@ const Neighbourhood = () => (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
             {features.map((feat, idx) => (
               <div key={feat.label} className="flex items-center bg-white rounded px-4 py-4 shadow-sm font-semibold text-lg text-[#212121]">
-                <div className="w-9 h-9 flex items-center justify-center bg-[#ff5a3c] text-white rounded mr-3 text-xl">
+                <div className="w-9 h-9 flex items-center justify-center bg-[#284181] text-white rounded mr-3 text-xl">
                   {feat.icon}
                 </div>
                 {feat.label}
-                <span className="ml-auto text-[#ff5a3c] text-xl font-bold">+</span>
+                <span className="ml-auto text-[#284181] text-xl font-bold">+</span>
               </div>
             ))}
           </div>
@@ -65,13 +65,13 @@ const Neighbourhood = () => (
             </div>
             <div className="px-6 mt-5">
               <div className="font-bold text-lg mb-1">Shopping Center</div>
-              <div className="text-[#ff5a3c] text-sm mb-2">
+              <div className="text-[#284181] text-sm mb-2">
                 1,500m <span className="ml-2 text-[#888c94]">/ 21 min. walk</span>
               </div>
               <div className="text-gray-500 text-sm mb-4">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore Enim ullamco laboris.
               </div>
-              <a href="#" className="text-[#ff5a3c] font-medium text-sm hover:underline transition">
+              <a href="#" className="text-[#284181] font-medium text-sm hover:underline transition">
                 View Property <span className="ml-1">&#8594;</span>
               </a>
             </div>

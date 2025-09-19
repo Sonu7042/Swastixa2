@@ -21,7 +21,7 @@ function Home() {
         {/* Left Section */}
         <div className="md:w-1/2 flex flex-col justify-center py-10 px-6 md:px-20">
           {/* <div className="flex items-center mb-8">
-            <span className="text-2xl text-[#ff6240] mr-2">🏠</span>
+            <span className="text-2xl text-[#284181] mr-2">🏠</span>
             <span className="text-base font-semibold text-gray-700">Real Estate Agency</span>
           </div> */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#23313b] mb-6 leading-tight sm:leading-snug">
@@ -34,7 +34,7 @@ function Home() {
             Experience top-quality design and construction with unmatched attention to detail.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 max-w-md">
-            <button className="bg-[#ff6240] hover:bg-[#e55a2b] text-white font-semibold py-4 px-10 rounded-md shadow-md transition w-full sm:w-auto">
+            <button className="bg-[#284181] hover:bg-[#284181] text-white font-semibold py-4 px-10 rounded-md shadow-md transition w-full sm:w-auto">
               OUR SERVICES
             </button>
             <button className="bg-white text-[#23313b] font-semibold py-4 px-10 rounded-md shadow-md border transition hover:bg-gray-50 w-full sm:w-auto">
@@ -65,26 +65,26 @@ function Home() {
           "
         >
           <div className="w-full md:w-64">
-            <select className="w-full h-10 px-6 font-semibold text-[#23313b] bg-white border border-gray-200 rounded-sm shadow-sm appearance-none focus:ring-[#ff6240] focus:border-[#ff6240] transition">
+            <select className="w-full h-10 px-6 font-semibold text-[#23313b] bg-white border border-gray-200 rounded-sm shadow-sm appearance-none focus:ring-[#284181] focus:border-[#284181] transition">
               <option>Choose Area</option>
             </select>
           </div>
 
           <div className="w-full md:w-64">
-            <select className="w-full h-10 px-6 font-semibold text-[#23313b] bg-white border border-gray-200 rounded-sm shadow-sm appearance-none focus:ring-[#ff6240] focus:border-[#ff6240] transition">
+            <select className="w-full h-10 px-6 font-semibold text-[#23313b] bg-white border border-gray-200 rounded-sm shadow-sm appearance-none focus:ring-[#284181] focus:border-[#284181] transition">
               <option>Property Status</option>
             </select>
           </div>
 
           <div className="w-full md:w-64">
-            <select className="w-full h-10 px-6 font-semibold text-[#23313b] bg-white border border-gray-200 rounded-sm shadow-sm appearance-none focus:ring-[#ff6240] focus:border-[#ff6240] transition">
+            <select className="w-full h-10 px-6 font-semibold text-[#23313b] bg-white border border-gray-200 rounded-sm shadow-sm appearance-none focus:ring-[#284181] focus:border-[#284181] transition">
               <option>Property Type</option>
             </select>
           </div>
 
           <button
             type="submit"
-            className="w-full md:w-40 h-10 bg-[#ff6240] text-white font-semibold text-lg rounded-sm shadow-sm hover:bg-[#e55a2b] transition"
+            className="w-full md:w-40 h-10 bg-[#284181] text-white font-semibold text-lg rounded-sm shadow-sm hover:bg-[#284181] transition"
           >
             FIND NOW
           </button>

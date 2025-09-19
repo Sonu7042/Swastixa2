@@ -42,7 +42,7 @@ const BuildingAmenities = () => (
           </h2>
         </div>
         <div className="absolute right-4 sm:right-10 top-1/2 -translate-y-1/2 flex gap-3 z-20">
-          <button className="bg-[#ff534a] w-8 h-8 sm:w-9 sm:h-9 rounded flex items-center justify-center text-white text-lg sm:text-xl shadow">←</button>
+          <button className="bg-[#284181] w-8 h-8 sm:w-9 sm:h-9 rounded flex items-center justify-center text-white text-lg sm:text-xl shadow">←</button>
           <button className="bg-white w-8 h-8 sm:w-9 sm:h-9 rounded flex items-center justify-center text-[#212121] text-lg sm:text-xl shadow border border-gray-300">→</button>
         </div>
       </div>

@@ -78,7 +78,7 @@ const Footer = () => (
           />
           <button
             type="submit"
-            className="bg-[#ff534a] px-4 py-2 rounded-r text-white text-lg font-bold flex items-center"
+            className="bg-[#284181] px-4 py-2 rounded-r text-white text-lg font-bold flex items-center"
           >
             <span>➤</span>
           </button>
