@@ -1,6 +1,7 @@
 import React from "react";
 import aboutImg from "../assets/Home_pics/img1.jpg";
 import img2 from "../assets/Home_pics/img2.jpg";
+import img3 from "../assets/Home_pics/img3.jpg";
 
 function About() {
   return (
@@ -14,7 +15,7 @@ function About() {
             className="absolute top-10 left-0 w-72 h-[22rem] bg-[#eaeef4] z-0 rounded-lg hidden sm:block" 
             alt="Background"
           />
-          <img
+          <img   
             src={aboutImg}
             alt="Room"
             className="relative w-96 h-[28rem] object-cover rounded-lg shadow-lg z-10"
@@ -25,7 +26,6 @@ function About() {
           <h2 className="font-bold text-3xl sm:text-4xl text-[#23313b] leading-snug mb-2">
             {/* Dream Living Spaces<br /> Setting New Build */}
             Building Dreams, One <br /> Home at a Time
-
           </h2>
           <div className="text-gray-500 text-base mb-8">
             At Oxford Realtors, we create modern, elegant homes with uncompromising quality. Our team of expert architects and engineers delivers projects that blend innovative design, sustainable practices, and on-time execution.
@@ -72,6 +72,49 @@ function About() {
           </div>
         </div>
       </div>
+
+
+
+    <div className="flex flex-col md:flex-row min-h-screen bg-[#f6fbfc] mt-10">
+  {/* Left Column */}
+  <div className="flex-1 flex flex-col justify-center p-6 md:p-12 lg:p-24">
+    <span className="text-[#ff5a3c] font-semibold mb-3">Building Facilities</span>
+    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-5 leading-snug">
+      Making living spaces <br /> More Beautiful
+    </h1>
+    <p className="mb-7 text-[#5a6973] text-base max-w-xl">
+      Over 39,000 people work for us in more than 70 countries all over the world. 
+      This breadth of global coverage, combined with specialist services.
+    </p>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <ul className="space-y-3">
+        {/* <span className="bg-[#F5DFDC] rounded-2xl text-[#ff5a3c]" >✔</span>  */}
+        <li>✔ Living rooms are pre-wired for Surround</li>
+        <li>✔ Nestled in the Buckhead Vinings communities</li>
+        <li>✔ A rare combination of inspired architecture</li>
+      </ul>
+      <ul className="space-y-3">
+        <li>✔ Luxurious interior design and amenities</li>
+        <li>✔ Private balconies with stunning views</li>
+        <li>✔ Outdoor grilling with dining court</li>
+      </ul>
+    </div>
+  </div>
+  {/* Right Column */}
+  <div className="flex-1 relative min-h-[250px] h-64 md:h-auto">
+    <img
+      src={img3}
+      alt="Living room"
+      className="w-full h-full object-cover md:min-h-screen min-h-[250px]"
+    />
+    <div className="absolute top-1/2 -left-6 transform -translate-y-1/2 bg-[#ff534a] rounded-full w-14 h-14 md:w-16 md:h-16 flex items-center justify-center shadow-lg">
+      <span className="inline-block w-0 h-0 border-t-[14px] border-t-transparent border-b-[14px] border-b-transparent border-l-[22px] md:border-l-[24px] border-l-white ml-2"></span>
+    </div>
+  </div>
+</div>
+
+
+
     </section>
   );
 }

@@ -2,6 +2,12 @@ import React from 'react'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
+import Services from './components/Services'
+import AvailabilityTable from './components/AvailabilityTable'
+import Neighbourhood from './components/Neighbourhood'
+import BuildingAmenities from './components/BuildingAmenities'
+import NewsFeed from './components/NewsFeed'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -11,7 +17,13 @@ const App = () => {
     <div className=''>
       <Home />
       <About />
+      <Services/>
+      <AvailabilityTable/>
+      <Neighbourhood/>
+      <BuildingAmenities/>
+      <NewsFeed/>
     </div>
+    <Footer/>
     </>
   )
 }

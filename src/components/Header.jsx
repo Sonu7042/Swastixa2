@@ -104,7 +104,7 @@ function Header() {
               { href: "#property1", label: "Property Style 01" },
               { href: "#property2", label: "Property Style 02" },
             ])}
-          </div>
+          </div>    
 
           <div className="relative group">
             <a href="#news" className="flex items-center hover:text-gray-700 cursor-pointer">
