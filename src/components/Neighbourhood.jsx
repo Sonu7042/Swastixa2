@@ -17,7 +17,7 @@ const features = [
 ];
 
 const Neighbourhood = () => (
-  <section className="py-10 bg-[#f6fbfc]">
+  <section className="py-5 bg-[#f6fbfc]">
     <div className="max-w-7xl mx-auto px-4">
       <span className="text-[#ff5a3c] text-sm block mb-1 font-medium">Explore Neighbour</span>
       <h2 className="text-3xl sm:text-4xl font-bold leading-[1.1] mb-8 text-[#212121]">

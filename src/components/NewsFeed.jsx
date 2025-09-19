@@ -25,7 +25,7 @@ const newsFeeds = [
 ];
 
 const NewsFeed = () => (
-  <section className="bg-[#f6fbfc] py-12">
+  <section className="bg-[#f6fbfc] py-12  md:mt-20">
     <div className="max-w-7xl mx-auto px-4">
       <span className="text-[#ff5a3c] text-sm font-medium block mb-2">News & Blogs</span>
       <h2 className="text-3xl sm:text-4xl font-bold text-[#212121] mb-8">Leatest News Feeds</h2>
