@@ -2,6 +2,8 @@ import React from "react";
 import aboutImg from "../assets/Home_pics/img1.jpg";
 import img2 from "../assets/Home_pics/img2.jpg";
 import img3 from "../assets/Home_pics/img3.jpg";
+import AvailabilityTable from "./AvailabilityTable";
+import UpcomingProject from "./UpcomingProject";
 
 function About() {
   return (
@@ -74,8 +76,10 @@ function About() {
       </div>
 
 
+    <AvailabilityTable/>
+    <UpcomingProject/>
 
-    <div className="flex flex-col md:flex-row min-h-screen bg-[#f6fbfc] mt-10">
+   <div className="flex flex-col md:flex-row min-h-screen bg-[#f6fbfc] mt-10">
   {/* Left Column */}
   <div className="flex-1 flex flex-col justify-center p-6 md:p-12 lg:p-24">
     <span className="text-[#ff5a3c] font-semibold mb-3">Building Facilities</span>
