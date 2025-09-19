@@ -13,7 +13,7 @@ const Footer = () => (
           Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
         </p>
         <ul className="text-sm mt-4 space-y-2">
-          <li className="flex items-center gap-2">
+          <li className="flex items-center gap-2">  
             <span>📍</span>
             Brooklyn, New York, United States
           </li>

@@ -51,7 +51,7 @@ const BuildingAmenities = () => (
       <div className="relative flex flex-wrap justify-center items-start gap-x-6 gap-y-8 px-4 sm:px-6 lg:px-0 mt-[-4rem] sm:mt-[-6rem] z-50">
   {testimonials.map((item, i) => (
     <div
-      key={i}
+      key={i} 
       className="bg-white rounded-lg shadow-md px-5 py-6 w-full max-w-sm flex flex-col gap-2 items-start"
     >
       <div className="flex items-center gap-3 mb-3">

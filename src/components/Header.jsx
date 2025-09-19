@@ -219,7 +219,7 @@ function Header() {
             Contact
           </a> */}
           <button
-            className="w-full bg-[#284181] text-white py-3 rounded shadow-md font-semibold hover:bg-[#e55a2b] transition"
+            className="w-full bg-[#284181] text-white py-3 rounded shadow-md font-semibold hover:bg-[#284181] transition"
             type="button"
             onClick={closeMenu}
           >
@@ -232,3 +232,4 @@ function Header() {
 }
 
 export default Header;
+  

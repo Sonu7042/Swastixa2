@@ -76,7 +76,7 @@ function About() {
       </div>
 
 
-    <AvailabilityTable/>
+    <AvailabilityTable/>  
     <UpcomingProject/>
 
    <div className="flex flex-col md:flex-row min-h-screen bg-[#f6fbfc] mt-10">

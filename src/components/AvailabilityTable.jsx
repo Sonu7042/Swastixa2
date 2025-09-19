@@ -122,3 +122,4 @@ const AvailabilityTable = () => (
 );
 
 export default AvailabilityTable;
+  
