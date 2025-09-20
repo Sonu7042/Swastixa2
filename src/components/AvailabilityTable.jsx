@@ -40,7 +40,7 @@ const AvailabilityTable = () => (
 
      <section className="py-6 bg-[#f6fbfc]">
         <div className="max-w-7xl mx-auto px-4">
-          <span className="text-[#284181] text-sm block mb-2 font-medium">
+          <span className="text-[#fd5a3e] text-sm block mb-2 font-medium">
             Area Properties
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#212121] mb-8 leading-[1.15] max-w-3xl">
@@ -70,7 +70,7 @@ const AvailabilityTable = () => (
                   <div className="font-bold text-lg mb-4">{prop.title}</div>
                   <a
                     href={prop.link}
-                    className="text-[#284181] font-medium text-sm hover:underline transition"
+                    className="text-[#fd5a3e] font-medium text-sm hover:underline transition"
                   >
                     View Property <span className="ml-1">&#8594;</span>
                   </a>
@@ -83,7 +83,7 @@ const AvailabilityTable = () => (
 
       <section className="py-8 bg-white">
     <div className="max-w-6xl mx-auto px-4">
-      <span className="text-[#284181] text-sm block mb-2 font-medium">Available Spaces</span>
+      <span className="text-[#fd5a3e] text-sm block mb-2 font-medium">Available Spaces</span>
       <h2 className="text-3xl sm:text-4xl font-bold text-[#212121] mb-8 leading-tight">
         Select Availability
       </h2>
@@ -110,7 +110,7 @@ const AvailabilityTable = () => (
                 <td className="px-4 py-3">{row.bathroom}</td>
                 <td className="px-4 py-3">{row.sqft}</td>
                 <td className="px-4 py-3">{row.price}</td>
-                <td className="px-4 py-3 text-[#284181] font-medium">{row.details}</td>
+                <td className="px-4 py-3 text-[#fd5a3e] font-medium">{row.details}</td>
               </tr>
             ))}
           </tbody>

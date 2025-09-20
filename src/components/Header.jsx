@@ -30,7 +30,7 @@ function Header() {
 
 
   const desktopSubMenu = (items = []) => (
-    <div className="absolute left-0 z-10 w-48 bg-white shadow-lg rounded-b-sm border-t-4 border-[#284181] mt-2 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-150">
+    <div className="absolute left-0 z-10 w-48 bg-white shadow-lg rounded-b-sm border-t-4 border-[#fd5a3e] mt-2 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-150">
       <ul className="py-4 space-y-5">
         {items.map(({ href, label }, idx) => (
           <li key={idx}>
@@ -45,7 +45,7 @@ function Header() {
 
   const mobileSubMenu = (menuKey, items = []) => (
     openMenus[menuKey] && (
-      <div className="ml-4 mt-1 border-t-4 border-[#284181] bg-white rounded-b-sm shadow-lg">
+      <div className="ml-4 mt-1 border-t-4 border-[#fd5a3e] bg-white rounded-b-sm shadow-lg">
         <ul className="py-2 space-y-3">
           {items.map(({ href, label }, idx) => (
             <li key={idx}>
@@ -132,7 +132,7 @@ function Header() {
         {/* Add Listing Button (hidden on small) */}
         <div className="hidden md:block">
           <button
-            className="bg-[#284181] text-white py-3 px-8 rounded shadow-md font-semibold hover:bg-[#284181] transition"
+            className="bg-[#fd5a3e] text-white py-3 px-8 rounded shadow-md font-semibold hover:bg-[#fd5a3e] transition"
             type="button"
           >
             Contact Us
@@ -143,7 +143,7 @@ function Header() {
 
         {/* Mobile menu button */}
         <button
-          className="md:hidden flex items-center text-[#284181]"
+          className="md:hidden flex items-center text-[#fd5a3e]"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
@@ -219,7 +219,7 @@ function Header() {
             Contact
           </a> */}
           <button
-            className="w-full bg-[#284181] text-white py-3 rounded shadow-md font-semibold hover:bg-[#284181] transition"
+            className="w-full bg-[#fd5a3e] text-white py-3 rounded shadow-md font-semibold hover:bg-[#fd5a3e] transition"
             type="button"
             onClick={closeMenu}
           >

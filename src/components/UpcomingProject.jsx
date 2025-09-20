@@ -29,7 +29,7 @@ const UpcomingProject = () => {
                   </div>
                   {/* Arrows on Right */}
                   <div className="flex items-center space-x-2 md:pr-10 mt-6 md:mt-0 ml-auto">
-                    <button className="w-8 h-8 flex items-center justify-center bg-[#284181] rounded">
+                    <button className="w-8 h-8 flex items-center justify-center bg-[#fd5a3e] rounded">
                       <span className="text-white text-lg">&#8592;</span>
                     </button>
                     <button className="w-8 h-8 flex items-center justify-center bg-[#fff] border border-gray-300 rounded">
@@ -48,7 +48,7 @@ const UpcomingProject = () => {
                   />
                 </div>
                 <div className="md:w-3/5 px-7 py-6 bg-[#f8fbfb] flex flex-col justify-center">
-                  <span className="font-semibold text-[#284181] text-sm mb-2">
+                  <span className="font-semibold text-[#fd5a3e] text-sm mb-2">
                     About Projects
                   </span>
                   <h3 className="text-2xl font-bold mb-6">Upcoming Projects</h3>
@@ -74,7 +74,7 @@ const UpcomingProject = () => {
                       <span className="font-semibold">$14,500,00</span>
                     </li>
                   </ul>
-                  <button className="bg-[#284181] text-white font-semibold px-5 py-2 rounded hover:bg-[#284181] transition">
+                  <button className="bg-[#fd5a3e] text-white font-semibold px-5 py-2 rounded hover:bg-[#fd5a3e] transition">
                     Download Brochure
                   </button>
                 </div>

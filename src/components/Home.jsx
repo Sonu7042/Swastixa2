@@ -34,7 +34,7 @@ function Home() {
             Experience top-quality design and construction with unmatched attention to detail.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 max-w-md">
-            <button className="bg-[#284181] hover:bg-[#284181] text-white font-semibold py-4 px-10 rounded-md shadow-md transition w-full sm:w-auto">
+            <button className="bg-[#fd5a3e] hover:bg-[#fd5a3e] text-white font-semibold py-4 px-10 rounded-md shadow-md transition w-full sm:w-auto">
               OUR SERVICES
             </button>
             <button className="bg-white text-[#23313b] font-semibold py-4 px-10 rounded-md shadow-md border transition hover:bg-gray-50 w-full sm:w-auto">
@@ -84,7 +84,7 @@ function Home() {
 
           <button
             type="submit"
-            className="w-full md:w-40 h-10 bg-[#284181] text-white font-semibold text-lg rounded-sm shadow-sm hover:bg-[#284181] transition"
+            className="w-full md:w-40 h-10 bg-[#fd5a3e] text-white font-semibold text-lg rounded-sm shadow-sm hover:bg-[#fd5a3e] transition"
           >
             FIND NOW
           </button>

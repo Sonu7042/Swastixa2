@@ -12,15 +12,15 @@ const services = [
     icon: (
       // Replace below SVGs with your actual icons/images
       <svg
-        className="w-16 h-16 mx-auto text-[#284181]"
+        className="w-16 h-16 mx-auto text-[#fd5a3e]"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 48 48"
       >
-        <circle cx="24" cy="24" r="21" stroke="#284181" strokeWidth="8" />
+        <circle cx="24" cy="24" r="21" stroke="#fd5a3e" strokeWidth="8" />
         <path
           d="M12 24l12-12 12 12"
-          stroke="#284181"
+          stroke="#fd5a3e"
           strokeWidth="2"
           fill="none"
         />
@@ -29,7 +29,7 @@ const services = [
           y="24"
           width="12"
           height="12"
-          stroke="#284181"
+          stroke="#fd5a3e"
           strokeWidth="2"
           fill="none"
         />
@@ -44,15 +44,15 @@ const services = [
     link: "Find A Home →",
     icon: (
       <svg
-        className="w-16 h-16 mx-auto text-[#284181]"
+        className="w-16 h-16 mx-auto text-[#fd5a3e]"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 48 48"
       >
-        <circle cx="24" cy="24" r="21" stroke="#284181" strokeWidth="8" />
+        <circle cx="24" cy="24" r="21" stroke="#fd5a3e" strokeWidth="8" />
         <path
           d="M18 28h12M18 24h10"
-          stroke="#284181"
+          stroke="#fd5a3e"
           strokeWidth="2"
           fill="none"
         />
@@ -61,7 +61,7 @@ const services = [
           y="24"
           width="12"
           height="12"
-          stroke="#284181"
+          stroke="#fd5a3e"
           strokeWidth="2"
           fill="none"
         />
@@ -76,19 +76,19 @@ const services = [
     link: "Find A Home →",
     icon: (
       <svg
-        className="w-16 h-16 mx-auto text-[#284181]"
+        className="w-16 h-16 mx-auto text-[#fd5a3e]"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 48 48"
       >
-        <circle cx="24" cy="24" r="21" stroke="#284181" strokeWidth="8" />
-        <path d="M16 32l8-8 8 8" stroke="#284181" strokeWidth="2" fill="none" />
+        <circle cx="24" cy="24" r="21" stroke="#fd5a3e" strokeWidth="8" />
+        <path d="M16 32l8-8 8 8" stroke="#fd5a3e" strokeWidth="2" fill="none" />
         <rect
           x="18"
           y="24"
           width="12"
           height="12"
-          stroke="#284181"
+          stroke="#fd5a3e"
           strokeWidth="2"
           fill="none"
         />
@@ -115,7 +115,7 @@ const Services = () => {
   return (
     <>
       <section className="py-10 px-4 sm:px-8 bg-white">
-        <p className="text-[#284181] font-semibold mb-0 text-3xl text-center">
+        <p className="text-[#fd5a3e] font-semibold mb-0 text-3xl text-center">
           Our Services
         </p>
         <div className="text-center mb-6 mt-4">
@@ -130,7 +130,7 @@ const Services = () => {
               className={`bg-white rounded-lg shadow-lg p-8 text-center flex flex-col justify-between transition
             ${
               svc.highlight
-                ? "border-b-4 border-[#284181]"
+                ? "border-b-4 border-[#fd5a3e]"
                 : "border-b-4 border-transparent"
             }`}
             >
@@ -143,7 +143,7 @@ const Services = () => {
               </div>
               <a
                 href="#"
-                className={`font-semibold text-[#284181] hover:underline transition duration-150`}
+                className={`font-semibold text-[#fd5a3e] hover:underline transition duration-150`}
               >
                 {svc.link}
               </a>
@@ -156,7 +156,7 @@ const Services = () => {
      
 
       <section className="py-8 sm:py-1 bg-white">
-        <p className="text-[#284181] font-semibold mb-0 text-2xl text-center">
+        <p className="text-[#fd5a3e] font-semibold mb-0 text-2xl text-center">
           Apartment Sketch
         </p>
 
@@ -172,8 +172,8 @@ const Services = () => {
               key={plan}
               className={`pb-1 ${
                 plan === "Double Height"
-                  ? "text-[#284181] border-b-2 border-[#284181]"
-                  : "text-[#212121] hover:text-[#284181]"
+                  ? "text-[#fd5a3e] border-b-2 border-[#fd5a3e]"
+                  : "text-[#212121] hover:text-[#fd5a3e]"
               } transition`}
             >
               {plan}

@@ -42,32 +42,40 @@ const BuildingAmenities = () => (
           </h2>
         </div>
         <div className="absolute right-4 sm:right-10 top-1/2 -translate-y-1/2 flex gap-3 z-20">
-          <button className="bg-[#284181] w-8 h-8 sm:w-9 sm:h-9 rounded flex items-center justify-center text-white text-lg sm:text-xl shadow">←</button>
+          <button className="bg-[#fd5a3e] w-8 h-8 sm:w-9 sm:h-9 rounded flex items-center justify-center text-white text-lg sm:text-xl shadow">←</button>
           <button className="bg-white w-8 h-8 sm:w-9 sm:h-9 rounded flex items-center justify-center text-[#212121] text-lg sm:text-xl shadow border border-gray-300">→</button>
         </div>
       </div>
 
-      {/* Cards stacked vertically with overlap */}
+      {/* Responsive cards */}
       <div className="relative flex flex-wrap justify-center items-start gap-x-6 gap-y-8 px-4 sm:px-6 lg:px-0 mt-[-4rem] sm:mt-[-6rem] z-50">
-  {testimonials.map((item, i) => (
-    <div
-      key={i} 
-      className="bg-white rounded-lg shadow-md px-5 py-6 w-full max-w-sm flex flex-col gap-2 items-start"
-    >
-      <div className="flex items-center gap-3 mb-3">
-        <img src={item.avatar} alt={item.name} className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover border-2 border-white" />
-        <div>
-          <div className="font-bold text-[#212121] text-sm sm:text-base">{item.name}</div>
-          <div className="text-xs sm:text-sm text-[#888c94] font-medium">{item.role}</div>
-        </div>
-        <StarRating count={item.stars} />
+        {testimonials.map((item, i) => (
+          <div
+            key={i}
+            className="
+              bg-white rounded-lg shadow-md
+              px-4 py-4 sm:px-6 sm:py-6 md:px-8 md:py-8
+              w-full
+              max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg
+              flex flex-col gap-2 items-start
+            "
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <img src={item.avatar} alt={item.name}
+                className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 rounded-full object-cover border-2 border-white" />
+              <div>
+                <div className="font-bold text-[#212121] text-sm sm:text-base md:text-lg">{item.name}</div>
+                <div className="text-xs sm:text-sm md:text-base text-[#888c94] font-medium">{item.role}</div>
+              </div>
+              <StarRating count={item.stars} />
+            </div>
+            <div className="text-[#888c94] text-xs sm:text-sm md:text-base">{item.text}</div>
+          </div>
+        ))}
       </div>
-      <div className="text-[#888c94] text-xs sm:text-sm">{item.text}</div>
-    </div>
-  ))}
-</div>
     </div>
   </section>
 );
+
 
 export default BuildingAmenities;
